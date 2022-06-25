@@ -1,2 +1,2 @@
 # Heart-to-life
-Gives the Warden an utility, although i'm not sure how many lives it is worth...
+From deep beneath the Earth, where a nightmarish remnant lies dormant, life can be found and be built from.

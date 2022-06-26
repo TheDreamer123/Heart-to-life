@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "obtain_heart": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "htl:warden_heart"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "htl:textures/gui/htl.png",
+    "description": {
+      "translate": "advancements.htl.obtain_heart.desc"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "htl:warden_heart"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.htl.obtain_heart.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_heart"
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "htl:soul_cluster"
+    }
+  },
+  "result": {
+    "item": "htl:warden_heart",
+    "count": 4
+  }
+}

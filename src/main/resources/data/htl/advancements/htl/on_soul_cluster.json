@@ -1,0 +1,45 @@
+{
+  "parent": "htl:htl/craft_soul_cluster",
+  "criteria": {
+    "on_soul_cluster": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": [
+                    "htl:soul_cluster"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.htl.on_soul_cluster.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:soul_sand"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.htl.on_soul_cluster.title"
+    }
+  },
+  "requirements": [
+    [
+      "on_soul_cluster"
+    ]
+  ]
+}

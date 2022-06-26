@@ -1,0 +1,39 @@
+{
+  "parent": "htl:htl/craft_soul_cluster",
+  "criteria": {
+    "summoned_remnant": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "htl:zombified_remnant"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.htl.summon_remnant.desc"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:sculk"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.htl.summon_remnant.title"
+    }
+  },
+  "requirements": [
+    [
+      "summoned_remnant"
+    ]
+  ]
+}

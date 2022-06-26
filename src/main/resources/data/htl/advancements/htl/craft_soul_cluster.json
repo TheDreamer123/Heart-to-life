@@ -1,0 +1,37 @@
+{
+  "parent": "htl:htl/root",
+  "criteria": {
+    "obtain_soul_cluster": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "htl:soul_cluster"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.htl.craft_soul_cluster.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "htl:soul_cluster"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.htl.craft_soul_cluster.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_soul_cluster"
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "htl",
+  "version": "${version}",
+
+  "name": "Heart to Life",
+  "description": "Harvest souls from a Warden to create powerful remnants.",
+  "authors": [
+    "TheDreamer123"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/heart-to-life",
+    "sources": "https://github.com/TheDreamer123/Heart-to-life",
+    "issues": "https://github.com/TheDreamer123/Heart-to-life/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/htl/htl.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.dreamer.htl.HeartToLife"
+    ],
+    "client": [
+      "net.dreamer.htl.HeartToLifeClient"
+    ]
+  },
+  "mixins": [
+    "htl.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

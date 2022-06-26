@@ -1,0 +1,37 @@
+{
+  "remnant.death":{
+    "replace":true,
+    "subtitle": "subtitles.htl.remnant.death",
+    "sounds":[
+      "htl:remnant/death"
+    ]
+  },
+  "remnant.hurt":{
+    "replace":true,
+    "subtitle": "subtitles.htl.remnant.hurt",
+    "sounds":[
+      "htl:remnant/hurt1",
+	  "htl:remnant/hurt2"
+    ]
+  },
+  "remnant.talk":{
+    "replace":true,
+    "subtitle": "subtitles.htl.remnant.talk",
+    "sounds":[
+      "htl:remnant/say1",
+	  "htl:remnant/say2",
+	  "htl:remnant/say3"
+    ]
+  },
+  "remnant.step":{
+    "replace":true,
+    "subtitle": "subtitles.htl.remnant.step",
+    "sounds":[
+      "htl:remnant/step1",
+	  "htl:remnant/step2",
+	  "htl:remnant/step3",
+	  "htl:remnant/step4",
+	  "htl:remnant/step5"
+    ]
+  }
+}

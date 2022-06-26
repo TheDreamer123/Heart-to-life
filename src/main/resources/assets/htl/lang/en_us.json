@@ -1,0 +1,19 @@
+{
+  "item.htl.warden_heart": "Warden Heart",
+  "block.htl.soul_cluster": "Soul Cluster",
+  "entity.htl.zombified_remnant": "Zombified Remnant",
+
+  "advancements.htl.obtain_heart.desc": "Obtain a Warden heart",
+  "advancements.htl.obtain_heart.title": "Heart to life",
+  "advancements.htl.craft_soul_cluster.desc": "Craft a soul cluster",
+  "advancements.htl.craft_soul_cluster.title": "Soul compressor",
+  "advancements.htl.on_soul_cluster.desc": "Walk inside a soul cluster",
+  "advancements.htl.on_soul_cluster.title": "One with the lost",
+  "advancements.htl.summon_remnant.desc": "Summon a zombified remnant",
+  "advancements.htl.summon_remnant.title": "Dr. Frankenstein-ish",
+
+  "subtitles.htl.remnant.death": "Remnant perishes",
+  "subtitles.htl.remnant.hurt": "Remnant gets hurt",
+  "subtitles.htl.remnant.talk": "Remnant babbles",
+  "subtitles.htl.remnant.step": "Remnant wanders"
+}
